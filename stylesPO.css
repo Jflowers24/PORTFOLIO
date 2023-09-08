@@ -5,16 +5,17 @@
 .jfsum{
     background-color: rgb(2, 120, 160);
     color:rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 43px;
     border-color: cornflowerblue;
     border-width: 20px;
     border-style:double;
-    width:500px;
+    width:900px;
     height: 300px;
     margin-left: 800px;
     margin-top: 200;
     padding: 10;
     text-align: center;
+    
 }
 
 
@@ -22,7 +23,7 @@
     width: 400px; 
     height: 400px;
     border-radius: 50%; 
-    border: 5px outset #6a3e08;
+    border: 10px outset #6a3e08;
     overflow: hidden; 
     margin-top: 200px;
     position: relative;
@@ -62,3 +63,308 @@
     width:100%
     
 }
+
+.image-container{
+    position:relative;
+    display:inline-block
+}
+
+.image-container img{
+    max-width: 100%; /* Ensure the image fits within its container */
+  height: 500px; /* Maintain aspect ratio */
+  display: block; /* Remove extra spacing below the image */
+  transition: opacity 0.3s ease-in-out; /* Add a smooth transition for opacity */
+  border: #2a1803;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
+  border: 10px solid rgb(42, 16, 6);
+  position: relative;
+  left:520px;
+  top:-400
+  
+}
+
+.image-container .overlay {
+    position: relative;
+    top: -500px;
+    left: 520px;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition for opacity */
+    display: flex; /* Center content vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container .overlay p {
+    color: #fff; /* Text color */
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .image-container:hover img {
+    opacity: 0.7; /* Adjust the opacity to darken the image */
+  }
+
+  .image-container:hover .overlay {
+    opacity: 1; /* Show the overlay */
+  }
+
+
+
+.xsixty{
+    height:500;
+    width: 500;
+    position: relative;
+    top:-450;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
+    border: 10px solid rgb(42, 16, 6);
+    left:430px;
+}
+
+.charity{
+    height:500;
+    width: 500;
+    position: relative;
+    top:-450;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
+    border: 10px solid rgb(42, 16, 6);
+    left:570px;
+}
+
+.mygoat{
+    height:500;
+    width: 500;
+    position: relative;
+    top:-450;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
+    border: 10px solid rgb(42, 16, 6);
+    left:300px;
+}
+
+
+
+.text-box-link {
+    text-decoration: none; 
+    display: inline-block; 
+  }
+  
+  
+  .text-box {
+    background-color: #3e2e20;
+    color: #fff; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out; 
+    position: relative;
+    top: -400;
+    left: 250;
+  
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .text-box-link:hover .text-box {
+    background-color: #2a1803; 
+  }
+
+  .goatlink {
+    text-decoration: none; 
+    display: inline-block; 
+  }
+  
+  
+  .goatbox {
+    background-color: #3e2e20;
+    color: #fff; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out; 
+    position: relative;
+    top: -470;
+    left: 490;
+    width:100px;
+  
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .goatboxlink:hover .goatbox {
+    background-color: #2a1803; 
+  }
+  
+
+  .xsixlink {
+    text-decoration: none; 
+    display: inline-block; 
+  }
+
+  .sixbox {
+    background-color: #3e2e20;
+    color: #fff; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out; 
+    position: relative;
+    top: -540;
+    left: 1142;
+    width:100px;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sixboxlink:hover .goatbox {
+    background-color: #2a1803; 
+  }
+
+  
+
+
+  .projects{
+    font-size: 100px;
+    border: 5px;
+    color:white;
+    position: relative;
+    width:400;
+    left:1000;
+    top:-1400;
+    background-color: rgb(2, 21, 37);
+    text-align: center;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .goatsum{
+    background-color: rgb(2, 120, 160);
+    font-size: 43px;
+    border-color: cornflowerblue;
+    border-width: 20px;
+    border-style:double;
+    width:400px;
+    height: 400px;
+    margin-left: 800px;
+    margin-top: 200;
+    padding: 10;
+    text-align: center;
+    position:relative;
+    top:-890px;
+
+    left:-470px
+  }
+
+  .charsum{
+    background-color: rgb(2, 120, 160);
+    font-size: 43px;
+    border-color: cornflowerblue;
+    border-width: 20px;
+    border-style:double;
+    width:400px;
+    height: 400px;
+    margin-left: 800px;
+    margin-top: 200;
+    padding: 10;
+    text-align: center;
+    position:relative;
+    top:-1550px;
+
+    left:850px
+  }
+
+  .xsum{
+    background-color: rgb(2, 120, 160);
+    font-size: 43px;
+    border-color: cornflowerblue;
+    border-width: 20px;
+    border-style:double;
+    width:420px;
+    height: 400px;
+    margin-left: 800px;
+    margin-top: 200;
+    padding: 10;
+    text-align: center;
+    position:relative;
+    top:-2210px;
+
+    left:200px
+  }
+
+  .myskills{
+    font-size: 100px;
+    border: 5px;
+    color:white;
+    position: relative;
+    width:400;
+    left:1040;
+    top:-1900;
+    background-color: rgb(2, 21, 37);
+    text-align: center;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .pyt{
+    height:75px;
+    width:75px;
+    position: relative;
+    top:-2700px;
+    left:900px;
+  }
+
+  .dja{
+    height:100px;
+    width:100px;
+    position: relative;
+    top:-2590px;
+    left:990px;
+  }
+
+  .ht{
+    height:100px;
+    width:100px;
+    position: relative;
+    top:-2550px;
+    left:1200px;
+  }
+
+  .java{
+    height:70px;
+    width:70px;
+    position: relative;
+    top:-2800px;
+    left:1200px;
+  }
+
+  .csss{
+    height:110px;
+    width:140px;
+    position: relative;
+    top:-2900px;
+    left:700px;
+
+  }
+
+  .heehee{
+    background-color: rgb(2, 120, 160);
+    font-size: 43px;
+    border-color: cornflowerblue;
+    border-width: 20px;
+    border-style:double;
+    width:420px;
+    height: 400px;
+    margin-left: 800px;
+    margin-top: 200;
+    padding: 10;
+    text-align: center;
+    position:relative;
+    top:-1850px;
+
+    left:250px
+  }
