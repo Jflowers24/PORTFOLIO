@@ -59,7 +59,7 @@
     text-align:center;
     position: static;
     top:-10;
-    height: 30;
+    height:90;
     width:100%
     
 }
@@ -367,4 +367,57 @@
     top:-1850px;
 
     left:250px
+  }
+
+  .contact{
+    background-color: rgb(2, 120, 160);
+    font-size: 43px;
+    border-color: cornflowerblue;
+    border-width: 20px;
+    border-style:double;
+    width:420px;
+    height: 100px;
+    margin-left: 800px;
+    margin-top: 200;
+    padding: 10;
+    text-align: center;
+    position:relative;
+    top:-1800;
+
+    left:250px
+  }
+
+  .github{
+    position: relative;
+    top:-1700;
+    height: 100px;
+    width:100px;
+    left:900;
+  }
+
+  .gmail{
+    position: relative;
+    top:-1700;
+    height: 100px;
+    width:150px;
+    left:1100;
+  }
+  .gmailtwo{
+    position: relative;
+    top:-1800;
+    height: 100px;
+    width:100px;
+    left:300;
+    background-color: rgb(2, 120, 160);
+    font-size: 30px;
+    border-color: cornflowerblue;
+    border-width: 20px;
+    border-style:double;
+    width:320px;
+    height: 30px;
+    margin-left: 800px;
+    margin-top: 200;
+    padding: 10;
+    text-align: center;
+
   }
