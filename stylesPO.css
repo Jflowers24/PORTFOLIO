@@ -1,5 +1,6 @@
 .body{
     background-color:var(--primary-color);
+    
 }
 
 .jfsum{
@@ -11,7 +12,7 @@
     border-style:double;
     width:900px;
     height: 300px;
-    margin-left: 800px;
+    margin-left: 900px;
     margin-top: 200;
     padding: 10;
     text-align: center;
@@ -23,7 +24,7 @@
     width: 400px; 
     height: 400px;
     border-radius: 50%; 
-    border: 10px outset var(--thirdary-color);
+    border: 10px outset var(--fourthary-color);
     overflow: hidden; 
     margin-top: 200px;
     position: relative;
@@ -73,8 +74,8 @@
     position: relative;
     top:-450;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
-    border: 10px solid var(--thirdary-color);
-    left:430px;
+    border: 10px solid var(--fourthary-color);
+    left:650px;
 }
 
 .charity{
@@ -83,8 +84,8 @@
     position: relative;
     top:-450;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
-    border: 10px solid var(--thirdary-color);
-    left:570px;
+    border: 10px solid var(--fourthary-color);
+    left:1100px;
 }
 
 .mygoat{
@@ -93,8 +94,8 @@
     position: relative;
     top:-450;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
-    border: 10px solid var(--thirdary-color);
-    left:300px;
+    border: 10px solid var(--fourthary-color);
+    left:200px;
     opacity: 1;
     transition: opacity 0.5s;
 }
@@ -140,14 +141,14 @@
   
   
   .text-box {
-    background-color: var(--thirdary-color);
+    background-color: var(--fourthary-color);
     color:var(--fithary-color); 
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out; 
     position: relative;
     top: -400;
-    left: 250;
+    left: 780;
   
     
     display: flex;
@@ -167,14 +168,14 @@
   
   
   .goatbox {
-    background-color: var(--thirdary-color);
+    background-color: var(--fourthary-color);
     color: var(--fithary-color); 
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out; 
     position: relative;
     top: -470;
-    left: 490;
+    left: 375;
     width:100px;
   
     
@@ -195,14 +196,14 @@
   }
 
   .sixbox {
-    background-color: var(--thirdary-color);
+    background-color: var(--fourthary-color);
     color: var(--fithary-color); 
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out; 
     position: relative;
     top: -540;
-    left: 1142;
+    left: 1352;
     width:100px;
     
     
@@ -230,8 +231,8 @@
     border: 5px;
     color:var(--fithary-color);
     position: relative;
-    width:400;
-    left:1000;
+    width:60%;
+    left:580;
     top:-1400;
     background-color: var(--secondary-color);
     text-align: center;
@@ -252,10 +253,10 @@
     padding: 10;
     text-align: center;
     position:relative;
-    top:-890px;
+    top:-930px;
     color:var(--fithary-color);
 
-    left:-470px
+    left:-580px
   }
 
   .charsum{
@@ -271,9 +272,9 @@
     padding: 10;
     text-align: center;
     position:relative;
-    top:-1550px;
+    top:-1590px;
     color:var(--fithary-color);
-    left:850px
+    left:1375px
   }
 
   .xsum{
@@ -289,9 +290,9 @@
     padding: 10;
     text-align: center;
     position:relative;
-    top:-2210px;
+    top:-2250px;
     color:var(--fithary-color);
-    left:200px
+    left:385px
   }
 
   .myskills{
@@ -300,7 +301,7 @@
     color:var(--fithary-color);
     position: relative;
     width:400;
-    left:1940;
+    left:2240px;
     top:-4100;
     background-color: var(--secondary-color);
     text-align: center;
@@ -312,7 +313,7 @@
     width:75px;
     position: relative;
     top:-4110px;
-    left:2000px;
+    left:2500px;
   }
 
 
@@ -330,7 +331,7 @@
     width:90px;
     position: relative;
     top:-4200px;
-    left:2030px;
+    left:2320px;
   }
   .dja:hover{
     animation-name: spin;
@@ -342,7 +343,7 @@
     width:70px;
     position: relative;
     top:-4100px;
-    left:2050px;
+    left:2130px;
   }
   .ht:hover{
     animation-name: spin;
@@ -351,11 +352,11 @@
 
 
   .java{
-    height:70px;
-    width:70px;
+    height:60px;
+    width:60px;
     position: relative;
-    top:-4000px;
-    left:1790px;
+    top:-4010px;
+    left:2349px;
   }
 
   .java:hover{
@@ -424,7 +425,7 @@
     top:10px;
     height: 90px;
     width:100px;
-    left:2000;
+    left:2500;
     z-index: 101;
     
   }
@@ -434,7 +435,7 @@
     top:-2;
     height: 120px;
     width:120px;
-    left:2150;
+    left:2200;
     z-index: 101;
     cursor:pointer
   }
@@ -463,7 +464,7 @@
     font-size: 10px;
     position: fixed;
     top:69px;
-    left:2270px;
+    left:2310px;
     color:#01141d;
     z-index: 101;
 
@@ -474,7 +475,7 @@
     cursor: pointer;
     position:fixed;
     top:19px;
-    left:2400px;
+    left:2750px;
     z-index: 101;
   }
 
@@ -493,7 +494,7 @@
     --secondary-color:#092f38;
     --thirdary-color:#5a3001;
     --fourthary-color:#4a3502;
-    --fithary-color:rgb(75, 75, 75);
+    --fithary-color:rgb(148, 147, 147);
   }
 
 
