@@ -18,10 +18,15 @@
             </div>
 
             <p class="cutername">Jeremiah Flowers</p>
-
+            
             <img class="mygoat" src="https://i.scdn.co/image/ab6761610000e5eb8f7bd760face9a6f526bb35b"/>
+            
+            <img class="mylogo" src="pics/Screenshot 2023-10-05 202206.png">
+            
             <img class="xsixty" src="pics/x60.png"/>
             
+
+            <img class="sunny" id="sun" src="pics/moon.png">
           
             <img class="charity" src="pics/childsup1.jpeg">
             
@@ -54,7 +59,7 @@
               
             <p class="myskills">My Skills</p>
 
-            <p class="heehee">By the time of my graduation from Basecamp Coding academy I will have learned these languages and many more.</p>
+           
 
             <img class="pyt" src="pics/Python-logo-notext.svg.png">
             <img class="dja" src="https://verbose-equals-true.gitlab.io/django-postgres-vue-gitlab-ecs/django.jpg">
@@ -62,16 +67,33 @@
             <img class="java" src="https://logosdownload.com/logo/javascript-logo-big.png">
             <img class="csss" src="pics/CSS3_logo.svg.png">
 
-            <p class="contact">Contact Me</p>
+              <p class="jjflow">jjflowers1994@gmail.com</p>
 
 
             <a href="https://github.com/dashboard" target="_blank">
             <img  src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" class="github">
             </a>
+            <div class="gmail" onclick="alert()">
+            <img src="pics/gmailmail.png" class="gmail" id="gmial">
+            </div>
+     
 
-            <img src="https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png" class="gmail">
-            <p class="gmailtwo">jjflowers1994@gmail.com</p>
-
+            <script>
+              var sun = document.getElementById("sun")
+              sun.onclick = function(){
+                document.body.classList.toggle("darktheme");
+                if (document.body.classList.contains("darktheme")){
+                  sun.src ="pics/moon.png";
+                }else{
+                  sun.src = "pics/bettermoon.png";
+                }
+              }
+            </script>
+            <script>
+              function alert(){
+                alert("Gmail function Still in progress, but my email is jjflowers1994@gmail.com");
+              }
+            </script>
 
         </body>
     </html>
