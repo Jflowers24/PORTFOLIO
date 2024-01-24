@@ -6,29 +6,45 @@
 .jfsum{
     background-color: var(--secondary-color);
     color:var(--fithary-color);
-    font-size: 43px;
+    font-size: 22px;
     border-color: #023047;
     border-width: 20px;
     border-style:double;
-    width:900px;
-    height: 300px;
-    margin-left: 900px;
-    margin-top: 200;
+    width:50%;
+    height: 30%;    margin-left: 40%;
+    margin-top: 170;
     padding: 10;
     text-align: center;
+    position: relative;
+    top:-10%;
     
 }
 
 
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+  }
+  50% {
+    text-shadow: 0 0 20px #ffcc00, 0 0 30px #ffcc00, 0 0 40px #ffcc00;
+  }
+  100% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+  }
+}
+
+
 .circular-border {
-    width: 400px; 
-    height: 400px;
+    width: 17%; 
+    height: 40%;
     border-radius: 50%; 
-    border: 10px outset var(--fourthary-color);
+    border: 5px outset var(--fourthary-color);
     overflow: hidden; 
     margin-top: 200px;
     position: relative;
-    top:-600
+    top:-90%;
+    left:5%;
+    
     
 }
 
@@ -42,14 +58,15 @@
 
 .cutername{
     background-color: var(--secondary-color);
-    font-size: 40px;
+    font-size: 30px;
     color:var(--fithary-color);
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
-    width:370;
+    width:25%;
     position:relative;
-    top:-600;
+    top:-90%;
     right:-30;
     text-align: center;
+    animation:glow 5s infinite;
 
 }
 
@@ -60,7 +77,7 @@
     text-align:center;
     position: fixed;
     top:-10;
-    height:90;
+    height:7%;
     width:100%;
     z-index: 100;
     
@@ -69,33 +86,24 @@
 
 
 .xsixty{
-    height:500;
-    width: 500;
+    height:60%;
+    width: 40%;
     position: relative;
-    top:-450;
+    top:20%;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
     border: 10px solid var(--fourthary-color);
-    left:650px;
+    left:3%;
 }
 
-.charity{
-    height:500;
-    width: 500;
-    position: relative;
-    top:-450;
-    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
-    border: 10px solid var(--fourthary-color);
-    left:1100px;
-}
 
 .mygoat{
-    height:500;
-    width: 500;
+    height:60%;
+    width: 40%;
     position: relative;
-    top:-450;
+    top:-82%;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
     border: 10px solid var(--fourthary-color);
-    left:200px;
+    left:45%;
     opacity: 1;
     transition: opacity 0.5s;
 }
@@ -111,10 +119,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 10%;
+  height: 10%;
   background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,9 +182,10 @@
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out; 
     position: relative;
-    top: -470;
-    left: 375;
-    width:100px;
+    top:-83%;
+    left: 63%;
+    width:2%;
+    height:3%;
   
     
     display: flex;
@@ -202,9 +211,10 @@
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out; 
     position: relative;
-    top: -540;
-    left: 1352;
-    width:100px;
+    top:12%;
+    left: 62%;
+    width:2%;
+    height:2%;
     
     
     display: flex;
@@ -217,8 +227,8 @@
   }
 
   .mylogo{
-    height:90px;
-    width:90px;
+    height:40px;
+    width:40px;
     position:fixed;
     top:5px;
     z-index: 101;
@@ -227,13 +237,13 @@
 
 
   .projects{
-    font-size: 100px;
+    font-size: 50px;
     border: 5px;
     color:var(--fithary-color);
     position: relative;
     width:60%;
-    left:580;
-    top:-1400;
+    left:37%;
+    top:-190%;
     background-color: var(--secondary-color);
     text-align: center;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
@@ -242,146 +252,140 @@
 
   .goatsum{
     background-color: var(--secondary-color);
-    font-size: 43px;
+    font-size: 20px;
     border-color: #023047;
     border-width: 20px;
     border-style:double;
-    width:400px;
-    height: 400px;
+    width:50%;
+    height: 10%;
     margin-left: 800px;
-    margin-top: 200;
+    margin-top: 130;
     padding: 10;
     text-align: center;
     position:relative;
-    top:-930px;
+    top:-130%;
     color:var(--fithary-color);
 
-    left:-580px
+
+    left:-26%
   }
 
-  .charsum{
-    background-color: var(--secondary-color);
-    font-size: 43px;
-    border-color: #023047;
-    border-width: 20px;
-    border-style:double;
-    width:400px;
-    height: 400px;
-    margin-left: 800px;
-    margin-top: 200;
-    padding: 10;
-    text-align: center;
-    position:relative;
-    top:-1590px;
-    color:var(--fithary-color);
-    left:1375px
-  }
+  
 
   .xsum{
     background-color: var(--secondary-color);
-    font-size: 43px;
+    font-size: 19px;
     border-color: #023047;
     border-width: 20px;
     border-style:double;
-    width:420px;
-    height: 400px;
+    width:50%;
+    height: 10%;
     margin-left: 800px;
     margin-top: 200;
     padding: 10;
     text-align: center;
     position:relative;
-    top:-2250px;
+    top:-85%;
     color:var(--fithary-color);
-    left:385px
+    left:-26%;
   }
 
-  .myskills{
-    font-size: 100px;
-    border: 5px;
-    color:var(--fithary-color);
-    position: relative;
-    width:400;
-    left:2240px;
-    top:-4100;
-    background-color: var(--secondary-color);
-    text-align: center;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+  
+
+  @keyframes spin{
+    
+    100%{transform: rotateY(360deg)}
   }
 
   .pyt{
     height:75px;
     width:75px;
     position: relative;
-    top:-4110px;
-    left:2500px;
+    top:2%;
+    left:-35%;
+    
   }
 
-
-  .pyt:hover{
+  .pyt2{
+    height:63px;
+    width:63px;
+    position: relative;
+    top:-275%;
+    left:-12%;
     animation-name: spin;
     animation-duration: 5s;
+    animation-iteration-count: infinite;
   }
-  @keyframes spin{
-    100%{transform: rotateX(360deg)}
+
+  .spring{
+    height:60px;
+    width:60px;
+    position: relative;
+    top:-260%;
+    left:-7%;
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
   }
+
+
+  
+  
 
 
   .dja{
     height:90px;
     width:90px;
     position: relative;
-    top:-4200px;
-    left:2320px;
-  }
-  .dja:hover{
+    top:-290%;
+    left:16%;
     animation-name: spin;
-    animation-duration: .5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
   }
-
+ 
   .ht{
     height:70px;
-    width:70px;
+    width:66px;
     position: relative;
-    top:-4100px;
-    left:2130px;
-  }
-  .ht:hover{
+    top:-258%;
+    left:-14.5%;
     animation-name: spin;
-    animation-duration: .5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
   }
+ 
 
 
   .java{
     height:60px;
-    width:60px;
+    width:55px;
     position: relative;
-    top:-4010px;
-    left:2349px;
+    top:-275%;
+    left:-19.7%;
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
   }
 
-  .java:hover{
-    animation-name: spin;
-    animation-duration: .5s;
-  }
+  
 
 
   .csss{
     height:69px;
     width:70px;
     position: relative;
-    top:-4000px;
-    left:1890px;
-   
+    top:-290%;
+    left:-25%;
+    
+    animation-name: spin, glow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 
   }
 
-  .csss:hover{
-    animation-name: spin;
-    animation-duration: .5s;
-  }
-  @keyframes spin{
-    100%{transform: rotateX(360deg)}
-  }
+ 
+  
 
 
   .heehee{
@@ -422,10 +426,10 @@
 
   .github{
     position:fixed;
-    top:10px;
-    height: 90px;
-    width:100px;
-    left:2500;
+    top:-.09%;
+    height: 50px;
+    width:50px;
+    left:85%;
     z-index: 101;
     
   }
@@ -433,9 +437,9 @@
   .gmail{
     position: fixed;
     top:-2;
-    height: 120px;
-    width:120px;
-    left:2200;
+    height: 60px;
+    width:60px;
+    left:90%;
     z-index: 101;
     cursor:pointer
   }
@@ -444,7 +448,7 @@
     top:-1800;
     height: 100px;
     width:100px;
-    left:300;
+    left:35%;
     background-color:var(--secondary-color);
     font-size: 30px;
     border-color: #023047;
@@ -464,18 +468,18 @@
     font-size: 10px;
     position: fixed;
     top:69px;
-    left:2310px;
+    left:35%;
     color:#01141d;
     z-index: 101;
 
   }
 
   .sunny{
-    width:70px;
+    width:50px;
     cursor: pointer;
     position:fixed;
-    top:19px;
-    left:2750px;
+    top:-.2%;
+    left:95%;
     z-index: 101;
   }
 
