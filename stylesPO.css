@@ -998,3 +998,82 @@
     }
 
   }
+
+  @media only screen and (max-width:376px){
+    .body{
+      overflow-x: hidden;
+    }
+
+    .circular-border{
+      height: 20%;
+      position: relative;
+      top: -65%;
+      left: -1%;
+    }
+    .cutername{
+      position: relative;
+      top: -70%;
+      left: 6%;
+    }
+    .projects{
+      position: relative;
+      top: -120%;
+    }
+    .mygoat{
+      top: -60%;
+    }
+    .goatbox{
+      position: relative;
+      top: -62%;
+    }
+    .xsixty{
+      position: relative;
+      top: -20%;
+    }
+    .sixbox{
+      position: relative;
+      top: -27%;
+    }
+    .dja{
+      position: relative;
+      top: -213%;
+      left: -15%;
+    }
+    .pyt2{
+      position: relative;
+      top: -213%;
+      left: -5%;
+    }
+    .java{
+    position: relative;
+      top: -195%;
+      left: -47%;
+    }
+    .csss{
+      top: -185%;
+      left: -61.5%;
+    }
+    .ht{
+      top: -175%;
+      left: -32.5%;
+    }
+    .spring{
+      top: -173%;
+      left: 10%;
+    }
+    .github{
+      position: relative;
+      left: 56%;
+      top:-270%;
+    }
+    .xsum{
+      border-color:#023047;
+      background-color:#023047;
+      color: #092f38;
+  
+  
+      left:-40%
+    }
+
+  }
+  
