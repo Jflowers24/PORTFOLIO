@@ -1075,5 +1075,125 @@
       left:-40%
     }
 
+    @media only screen and (max-width:320px){
+      .body{
+        overflow-x: hidden;
+      }
+      .circular-border{
+        position: relative;
+        top: -80%;
+      }
+      
+      .cutername{
+        position: relative;
+        top: -85%;
+        font-size: 15px;
+      }
+
+      .jfsum{
+        position: relative;
+        font-size: 12px;
+        width: 180px;
+      }
+
+      .dja{
+        position: relative;
+        top: -250%;
+        left: -21%;
+      }
+
+      .csss{
+        position: relative;
+        top: -249%;
+        left: 8.5%;
+      }
+
+      .pyt2{
+        position: relative;
+        top: -235%;
+        left: -27%;
+      }
+      .java{
+        position: relative;
+        top: -209%;
+        left: -58.5%;
+      }
+      .ht{
+        position: relative;
+        
+        left: -41.5%;
+        top: -200%;
+
+      }
+      .spring{
+        position: relative;
+        top: -193%;
+        left: -9%;
+      }
+      .github{
+        position: relative;
+        left:50%;
+        top: -317.5%;
+      }
+      .linkedin{
+        top:-2% ;
+      }
+
+      
+    }
+    @media only screen and (max-width:375px){
+      .circular-border{
+        position: relative;
+        top: -80%;
+        height:140px;
+      }
+      .jfsum{
+        font-size: 10px;
+      }
+      .github{
+        position: relative;
+        top: -329.5%;
+      }
+      .linkedin{
+        position: relative;
+        top: -339.5%;
+        left: 57%;
+        width: 45px;
+      }
+      .sunny{
+        width: 44px;
+      }
+      .dja{
+        position: relative;
+        top: -260%;
+      }
+      .csss{
+        position: relative;
+        top: -250%;
+      }
+      .ht{
+        position: relative;
+        top: -240%;
+      }
+      .spring{
+        position: relative;
+        top: -240%;
+      }
+      .pyt2{
+        position: relative;
+        top:-230%;
+      }
+      .java{
+        position: relative;
+        top: -209%;
+      }
+
+      .cutername{
+        position: relative;
+        top: -90%;
+      }
+    }
+
   }
   
+
