@@ -1,17 +1,88 @@
-.body{
+body{
     background-color:var(--primary-color);
-    
+    width: 100%;
+    height: auto;
+}
+
+.topbar{
+  background-color: var(--fourthary-color);
+  color:var(--fithary-color);
+  padding: 10px 0;
+  text-align:center;
+  position: fixed;
+  top:-10;
+  height:7%;
+  width:100%;
+  z-index: 100;
+  left: 0%;
+  
+}
+
+
+
+.mylogo{
+  height:40px;
+  width:40px;
+  position:fixed;
+  top:5px;
+  z-index: 101;
+  left:1%;
+}
+
+.github{ 
+  width:50px;
+  
+  position:fixed;
+  top:-.09%;
+  height: 50px;
+  width:50px;
+  left:84%;
+  z-index: 101; 
+  
+  
+}
+
+.sunny{
+  width:45px;
+   width:45px;
+  cursor: pointer;
+  position:fixed;
+  top:-.1%;
+  left:70%;
+  z-index: 101;
+}
+.linkedin{
+  width:48px;
+  width:48px;
+  cursor: pointer;
+  position:fixed;
+  top:0%;
+  left:43%;
+  z-index: 101;
+}
+
+
+
+.gmail{
+  width:50px;
+  position: fixed;
+  top:-2;
+  height: 60px;
+  width:60px;
+  left:15%;
+  z-index: 101;
+  cursor:pointer 
 }
 
 .jfsum{
     background-color: var(--secondary-color);
     color:var(--fithary-color);
-    font-size: 22px;
+    font-size: 10.2px;
     border-color: #023047;
     border-width: 20px;
     border-style:double;
-    width:50%;
-    height: 25%;    margin-left: 40%;
+    width:42%;
+    height: 20%;    margin-left: 40%;
     margin-top: 170;
     padding: 10;
     text-align: center;
@@ -35,15 +106,15 @@
 
 
 .circular-border {
-    width: 17%; 
-    height: 40%;
+    width: 37%; 
+    height: 30%;
     border-radius: 50%; 
     border: 5px outset var(--fourthary-color);
     overflow: hidden; 
     margin-top: 200px;
     position: relative;
-    top:-90%;
-    left:5%;
+    top:-82%;
+    left:-2%;
     
     
 }
@@ -52,59 +123,66 @@
     width: 100%; 
     height: 100%;
     object-fit: cover; 
-
+    
 
 }
 
+.goatboxlink{
+  
+}
+
+
 .cutername{
     background-color: var(--secondary-color);
-    font-size: 30px;
+    font-size: 14px;
     color:var(--fithary-color);
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
     width:25%;
     position:relative;
-    top:-90%;
-    right:-30;
+    top:-84%;
+    right:-6%;
     text-align: center;
     animation:glow 5s infinite;
 
 }
 
-.topbar{
-    background-color: var(--fourthary-color);
-    color:var(--fithary-color);
-    padding: 10px 0;
-    text-align:center;
-    position: fixed;
-    top:-10;
-    height:7%;
-    width:100%;
-    z-index: 100;
-    left: 0%;
-    
+.projects{
+  font-size: 20px;
+  border: 5px;
+  color:var(--fithary-color);
+  position: relative;
+  width:45%;
+  left:48%;
+  top:-92.5%;
+  background-color: var(--secondary-color);
+  text-align: center;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+  
 }
+
+
 
 
 
 .xsixty{
-    height:60%;
+    height:30%;
     width: 40%;
     position: relative;
-    top:20%;
+    top:-50%;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
     border: 10px solid var(--fourthary-color);
-    left:3%;
+    left:-1%;
 }
 
 
 .mygoat{
-    height:60%;
+    height:30%;
     width: 40%;
     position: relative;
-    top:-82%;
+    top:-92%;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
     border: 10px solid var(--fourthary-color);
-    left:45%;
+    left:47%;
     opacity: 1;
     transition: opacity 0.5s;
 }
@@ -158,6 +236,7 @@
     position: relative;
     top: -400;
     left: 780;
+    
   
     
     display: flex;
@@ -173,6 +252,7 @@
   .goatlink {
     text-decoration: none; 
     display: inline-block; 
+    
   }
   
   
@@ -183,12 +263,12 @@
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out; 
     position: relative;
-    top:-83%;
+    top:-92%;
     left: 63%;
-    width:2%;
-    height:3%;
-  
-    
+    width:1%;
+    height:2%;
+    color: #2a1803;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,11 +292,12 @@
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out; 
     position: relative;
-    top:12%;
+    top:-56%;
     left: 62%;
-    width:2%;
+    width:1%;
     height:2%;
-    
+    font-size: 10px;
+    color: #2a1803;
     
     display: flex;
     justify-content: center;
@@ -227,29 +308,8 @@
     background-color: #2a1803; 
   }
 
-  .mylogo{
-    height:40px;
-    width:40px;
-    position:fixed;
-    top:5px;
-    z-index: 101;
-    left:20px;
-  }
 
-
-  .projects{
-    font-size: 50px;
-    border: 5px;
-    color:var(--fithary-color);
-    position: relative;
-    width:60%;
-    left:37%;
-    top:-180%;
-    background-color: var(--secondary-color);
-    text-align: center;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
-    
-  }
+  
 
   .goatsum{
     background-color: var(--secondary-color);
@@ -299,91 +359,99 @@
   }
 
   .pyt{
-    height:75px;
-    width:75px;
+    height:35px;
+    width:35px;
     position: relative;
-    top:2%;
-    left:-35%;
+    top:-204%;
+    left:1%;
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
     
+
+
   }
-
-  .pyt2{
-    height:63px;
-    width:63px;
-    position: relative;
-    top:-275%;
-    left:-12%;
-    animation-name: spin;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-  }
-
-  .spring{
-    height:60px;
-    width:60px;
-    position: relative;
-    top:-260%;
-    left:-7%;
-    animation-name: spin;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-  }
-
-
-  
-  
-
 
   .dja{
-    height:90px;
-    width:90px;
+    height:44px;
+    width:45px;
     position: relative;
-    top:-290%;
-    left:16%;
+    top:-203%;
+    left:4%;
     animation-name: spin;
     animation-duration: 5s;
     animation-iteration-count: infinite;
   }
- 
   .ht{
-    height:70px;
-    width:66px;
+    height:32px;
+    width:35px;
     position: relative;
-    top:-258%;
-    left:-14.5%;
+    top:-204%;
+    left:6%;
     animation-name: spin;
     animation-duration: 5s;
     animation-iteration-count: infinite;
   }
- 
-
 
   .java{
-    height:60px;
-    width:55px;
+    height:32px;
+    width:32px;
     position: relative;
-    top:-275%;
-    left:-19.7%;
+    top:-204%;
+    left:10%;
     animation-name: spin;
     animation-duration: 5s;
     animation-iteration-count: infinite;
   }
-
-  
-
-
   .csss{
-    height:69px;
-    width:70px;
+    height:35px;
+    width:36px;
     position: relative;
-    top:-290%;
-    left:-25%;
+    top:-204%;
+    left:15%;
     
     animation-name: spin, glow;
     animation-duration: 5s;
     animation-iteration-count: infinite; 
 
   }
+
+  .spring{
+    height:33px;
+    width:33px;
+    position: relative;
+    top:-204%;
+    left:20%;
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+
+  .resume{
+    height:80px;
+    width:80px;
+    position: relative;
+    top:-140%;
+    left:-67%;
+    
+    
+  }
+  
+
+
+  
+ 
+  
+ 
+
+
+  
+
+  
+
+
+  
 
  
   
@@ -425,72 +493,14 @@
     left:250px
   }
 
-  .github{
-    position:fixed;
-    top:-.09%;
-    height: 50px;
-    width:50px;
-    left:85%;
-    z-index: 101;
-    
-  }
+  
 
-  .gmail{
-    position: fixed;
-    top:-2;
-    height: 60px;
-    width:60px;
-    left:90%;
-    z-index: 101;
-    cursor:pointer
-  }
-  .gmailtwo{
-    position: relative;
-    top:-1800;
-    height: 100px;
-    width:100px;
-    left:35%;
-    background-color:var(--secondary-color);
-    font-size: 30px;
-    border-color: #023047;
-    border-width: 20px;
-    border-style:double;
-    width:320px;
-    height: 30px;
-    margin-left: 800px;
-    margin-top: 200;
-    padding: 10;
-    text-align: center;
-
-  }
+  
+  
 
 
-  .jjflow{
-    font-size: 10px;
-    position: fixed;
-    top:69px;
-    left:35%;
-    color:#01141d;
-    z-index: 101;
-
-  }
-
-  .sunny{
-    width:50px;
-    cursor: pointer;
-    position:fixed;
-    top:-.2%;
-    left:95%;
-    z-index: 101;
-  }
-  .linkedin{
-    width:50px;
-    cursor: pointer;
-    position:fixed;
-    top:0%;
-    left:80%;
-    z-index: 101;
-  }
+  
+  
 
   :root{
     --primary-color:#023047;
@@ -511,689 +521,459 @@
   }
 
 
-  @media only screen and (max-width:390px){
-    .body{
-      overflow-x: hidden;
+  @media only screen and (min-width:375px){
+  .spring{
+    left: 30%;
+  }
+  .csss{
+    left:25%
+  }
+  .java{
+    left: 18%;
+  }
+  .ht{
+    left: 10%;
+  }
+  .dja{
+    left:5%;
+  }
+  .resume{
+    left: -54%;
+  }
+
+  @media only screen and (min-width:425px) {
+    .spring{
+      left: 37%;
+      top: -200%;
     }
-    
+    .csss{
+      left:29%;
+      top: -200%;
+    }
+    .java{
+      left: 20%;
+      top: -200%;
+    }
+    .ht{
+      left: 12%;
+      top: -200%;
+    }
+    .dja{
+      left:7%;
+      top: -200%;
+    }
+    .resume{
+      left: -46%;
+    }
+    .pyt{
+      top: -200%;
+
+    }
+    .xsixty{
+      left: -1%;
+    }
+    .sixbox{
+      left: 62%;
+    }
+    .goatbox{
+      left: 62%;
+    }
+    .mygoat{
+      left: 45%;
+    }
+    .projects{
+      left: 45%;
+    }
     .jfsum{
-      background-color: var(--secondary-color);
-      color:var(--fithary-color);
-      font-size: 11px;
-      border-color: #023047;
-      border-width: 20px;
-      border-style:double;
-      width:40%;
-      height: 18%;    margin-left: 42%;
-      margin-top: 160;
-      padding: 10;
-      text-align: center;
-      position: relative;
-      top:-10%;
-      
+      font-size: 12px;
+    }
+
   }
 
-    .circular-border {
-      width: 34%; 
-      height: 15%;
-      border-radius: 50%; 
-      border: 5px outset var(--fourthary-color);
-      overflow: hidden; 
-      position: relative;
-      top:-55%;
-      left:-9%;
+  @media only screen and (min-width: 768px){
+    .github{
+      left:90%;
+    }
+    .sunny{
+      left:80%;
+    }
+    .gmail{
+      left: 10%;
+    }
+    .linkedin{
+      left: 46%;
+    }
+    .spring{
+      left: 65%;
+      top: -222%;
+    }
+    .csss{
+      left: 53%;
+      top: -222%;
+    }
+    .java{
+      left: 40%;
+      top: -222%;
+    }
+    .ht{
+      left: 24%;
+      top: -222%;
+    }
+    .dja{
+      top: -222%;
+      left: 13%;
+    }
+    .pyt{
+      top: -222%;
       
-      
-  }
+    }
+    .circular-border{
+      width:180px;
+      height: 180px;
+      left: 6%;
+    }
+    .cutername{
+      font-size: 20px;
+    }
+    .jfsum{
+      font-size: 16px;
+      left: 3%;
+    }
+    .mygoat{
+      left: 46%;
+    }
+    .goatbox{
+      left: 64%;
+    }
+    .xsixty{
+      left: 3%;
+    }
+    .sixbox{
+      left: 64%;
+    }
+    .resume{
+      width: 150px;
+      height: 160px;
+      left: -21%;
+    }
 
+  }
+@media only screen and (min-width: 1024px){
+  .github{
+    left: 93%;
+    top: 1%;
+  }
+  .sunny{
+    left: 87%;
+    top: 1%;
+  }
+  .linkedin{
+    top: 1%;
+    left: 80%;
+    width: 50px;
+    height: 50px;
+  }
+  .gmail{
+    left: 72%;
+    width: 68px;
+    height: 65px;
+  }
+  .circular-border{
+    top: -67%;
+    height: 270px;
+    width: 270px;
+    left: 3%;
+  }
+  .resume{
+    top: -110%;
+    left: -26%;
+  }
   .cutername{
-    background-color: var(--secondary-color);
-    font-size: 20px;
-    color:var(--fithary-color);
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
-    width:23%;
-    position:relative;
-    top:-69%;
-    right:-20%;
-    text-align: center;
-    animation:glow 5s infinite;
+    top: -65.7%;
+    left: 3%;
+    font-size: 30px;
+    height: 33px;
+  }
+  .jfsum{
+    top: 1%;
+    height: 200px;
+    font-size: 25px;
+    left: 3.5%;
+  }
+  .projects{
+    font-size: 30px;
+    top: -75%;
 
   }
   .mygoat{
-    height:30%;
-    width: 40%;
-    position: relative;
-    top:-55%;
-    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
-    border: 10px solid var(--fourthary-color);
-    left:46%;
-    opacity: 1;
-    transition: opacity 0.5s;
+    top: -70%;
+  }
+  .goatbox{
+    top: -71%;
   }
   .xsixty{
-    height:30%;
-    width: 40%;
-    position: relative;
-    top:-5%;
-    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
-    border: 10px solid var(--fourthary-color);
-    left:-2%;
+    top: -30%;
+    left: 3.52%;
   }
-  .projects{
-    font-size: 25px;
-    border: 5px;
-    color:var(--fithary-color);
-    position: relative;
-    width:60%;
-    left:39%;
-    top:-105%;
-    background-color: var(--secondary-color);
-    text-align: center;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
-    
-  }
-  .description_goat {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 10%;
-    height: 10%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.5s;
-  }
-
-
-  .topbar{
-    background-color: var(--fourthary-color);
-    color:var(--fithary-color);
-    padding: 10px 0;
-    text-align:center;
-    position: fixed;
-    top:-10;
-    height:3%;
-    width:100%;
-    z-index: 100;
-    left: 0%;
-    
+  .sixbox{
+    top: -37%;
   }
   .pyt{
-    height:75px;
-    width:75px;
-    position: relative;
-    top:2%;
-    left:-35%;
-    
+    top: -205%;
+    height: 55px;
+    width: 55px;
   }
-
-  .pyt2{
-    height:40px;
-    width:40px;
-    position: relative;
-    top:-173%;
-    left:-71%;
-    animation-name: spin;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-  }
-
-  .spring{
-    height:40px;
-    width:40px;
-    position: relative;
-    top:-182%;
-    left:-59%;
-    animation-name: spin;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-  }
-
-
-
-
-
-
   .dja{
-    height:40px;
-    width:40px;
-    position: relative;
-    top:-190%;
-    left:-10%;
-    animation-name: spin;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-  }
-
-  .ht{
-    height:40px;
-    width:40px;
-    position: relative;
-    top:-50%;
-    left:-20%;
-    animation-name: spin;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-  }
-
-
-
-  .java{
-    height:40px;
-    width:40px;
-    position: relative;
-    top:-206%;
-    left:-35%;
-    animation-name: spin;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-  }
-
-
-
-
-  .csss{
-    height:40px;
-    width:40px;
-    position: relative;
-    top:-215%;
-    left:-47%;
-    
-    animation-name: spin, glow;
-    animation-duration: 5s;
-    animation-iteration-count: infinite; 
-
-  }
-
-
-
-
-
-  .heehee{
-    background-color: var(--secondary-color);
-    font-size: 43px;
-    border-color: #023047;
-    border-width: 20px;
-    border-style:double;
-    width:420px;
-    height: 400px;
-    margin-left: 800px;
-    margin-top: 200;
-    padding: 10;
-    text-align: center;
-    position:relative;
-    top:-1850px;
-
-    left:250px
-  }
-
-  .contact{
-    background-color: var(--secondary-color);
-    font-size: 43px;
-    border-color: #023047;
-    border-width: 20px;
-    border-style:double;
-    width:420px;
-    height: 100px;
-    margin-left: 800px;
-    margin-top: 200;
-    padding: 10;
-    text-align: center;
-    position:relative;
-    top:-1800;
-
-    left:1000px
-  }
-
-  .github{
-    position:fixed;
-    top:.1%;
-    height: 50px;
-    width:50px;
-    left:37%;
-    z-index: 101;
-    
-  }
-
-  .gmail{
-    position: fixed;
-    top:-2;
+    top: -205%;
     height: 60px;
-    width:60px;
-    left:17%;
-    z-index: 101;
-    cursor:pointer
+    width: 60px;
+    left: 9%;
   }
-  .gmailtwo{
-    position: relative;
-    top:-1800;
-    height: 100px;
-    width:100px;
-    left:35%;
-    background-color:var(--secondary-color);
+  .csss{
+    top: -205%;
+    left: 55%;
+    height: 55px;
+    width: 55px;
+  }
+  .java{
+    top: -205%;
+    left: 44%;
+    height: 55px;
+    width: 55px;
+  }
+  .ht{
+    top: -205%;
+    height: 55px;
+    width: 55px;
+    left: 17%;
+  }
+  .spring{
+    top: -205%;
+    left: 62%;
+    height: 55px;
+    width: 55px;
+  }
+}
+@media only screen and (min-width: 1440px){
+  .mylogo{
+    width: 60px;
+    height: 58px;
+  }
+  .jfsum{
     font-size: 30px;
-    border-color: #023047;
-    border-width: 20px;
-    border-style:double;
-    width:320px;
-    height: 30px;
-    margin-left: 800px;
-    margin-top: 200;
-    padding: 10;
-    text-align: center;
-
   }
-
-
-  .jjflow{
-    font-size: 10px;
-    position: fixed;
-    top:69px;
-    left:35%;
-    color:#01141d;
-    z-index: 101;
-
+  .projects{
+    font-size: 35px;
+    left: 44%;
+    top: -70%;
   }
-
-  .sunny{
-    width:50px;
-    cursor: pointer;
-    position:fixed;
-    top:.2%;
-    left:9%;
-    z-index: 101;
+  .circular-border{
+    top: -55%;
+    height: 300px;
+    width: 300px;
+    left:7%;
+  }
+  .cutername{
+    font-size: 30px;
+    top: -61%;
+    left: 5%;
+  }
+  .resume{
+    left: -16%;
+    width: 300px;
+    height: 300px;
+  }
+  .java{
+    left: 54%;
+  }
+  .spring{
+    left: 75%;
+  }
+  .csss{
+    left: 65%;
+  }
+  .ht{
+    left: 24%;
+  }
+  .dja{
+    left:12% ;
+  }
+}
+@media only screen and (min-width: 2560px){
+  .mylogo{
+    width: 100px;
+    height: 100px;
+  }
+  .gmail{
+    width: 150px;
+    height: 150px;
+    top: -1%;
   }
   .linkedin{
-    width:50px;
-    cursor: pointer;
-    position:fixed;
-    top:.1%;
-    left:27%;
-    z-index: 101;
+    width: 110px;
+    height: 110px;
+    top: 0.2%;
+  }
+  .sunny{
+    width: 110px;
+    height: 110px;
+    top: 0%;
+  }
+  .github{
+    width: 110px;
+    height: 110px;
+    top: 0%;
   }
 
-  .goatbox {
-    background-color: var(--fourthary-color);
-    color: var(--fithary-color); 
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease-in-out; 
-    position: relative;
-    top:-56%;
-    left: 61%;
-    width:2%;
-    height:3%;
-
+  .circular-border{
+    height: 500px;
+    width: 500px;
+    top: -35%;
+  }
+  .cutername{
+    top: -40%;
+    font-size: 60px;
+    height: 60px;
+  }
+  .resume{
+    height: 500px;
+    width: 500px;
+    top: -90%;
+    left:-15%;
+  }
+  .xsixty{
+    top: -10%;
+  }
+  .mygoat{
+    top: -20%;
+  }
+  .projects{
+    top: -48.6%;
+    left: 43%;
+    height: 70px;
+    font-size: 60px;
+  }
+  .jfsum{
+    font-size: 54px;
+    height: 400px;
+    top:10%;
+  }
+  .mygoat{
+    top: -50%;
+    left:45% ;
+  }
+  .goatbox{
+    font-size: 30px;
+    top:-51% ;
+    height: 50px;
+    width: 60px;
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
   }
-  .sixbox {
-    background-color: var(--fourthary-color);
-    color: var(--fithary-color); 
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease-in-out; 
-    position: relative;
-    top:-11%;
+  .xsixty{
+    left: 4%;
+  }
+  .sixbox{
+    top:-15% ;
+    height: 50px;
+    width: 60px;
+    font-size: 30px;
+  }
+  .pyt{
+    height: 100px;
+    width: 100px;
+    top: -170%;
+  }
+  .dja{
+    height: 100px;
+    width: 100px;
+    top: -170%;
+  }
+  .ht{
+    height: 100px;
+    width: 100px;
+    top: -170%;
+  }
+  .csss{
+    height: 100px;
+    width: 100px;
+    top: -170%;
+  }
+  .spring{
+    height: 100px;
+    width: 100px;
+    top: -170%;
+  }
+  .java{
+    height: 100px;
+    width: 100px;
+    top: -170%;
+  }
+
+}
+@media only screen and (min-width: 1280px){
+  .java{
+    top: -250%;
+    left: 49%;
+  }
+  .pyt{
+    top: -250%;
+  }
+  .dja{
+    top: -250%;
+  }
+  .ht{
+    top: -250%;
+  }
+  .csss{
+    top: -250%;
     left: 60%;
-    width:2%;
-    height:2%;
-    
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
-  .xsum{
-    background-color: var(--secondary-color);
-    font-size: 10px;
-    border-color: #023047;
-    border-width: 20px;
-    border-style:double;
-    width:50%;
-    height: 1000%;
-    margin-left: 215px;
-    margin-top: 170;
-    padding: 10;
-    text-align: center;
-    position:relative;
-    top:-85%;
-    color:var(--fithary-color);
-    left:-25%;
+  .spring{
+    top: -250%;
+    left: 70%;
   }
-
-  .goatsum{
-    border-color:#023047;
-    background-color:#023047;
-    color: #092f38;
-
-
-    left:-40%
+  .circular-border{
+    top: -80%;
+  }
+  .cutername{
+    top:-85% ;
+    left: 2%;
+  }
+  .resume{
+    width: 200px;
+    top: -140%;
+    left: -20%;
+    height: 200px;
+  }
+  .projects{
+    top: -96.5%;
+    left: 44.5%;
+  }
+  .mygoat{
+    top: -94%;
+  }
+  .goatbox{
+    top:-95%;
+    left: 65%;
+  }
+  .xsixty{
+    top:-50%;
+    left: 4%;
+  }
+  .sixbox{
+    top: -58%;
+    left: 65%;
+  }
+  .gmail{
+    top: -1%;
+  }
+  .linkedin{
+    top: .09%;
+  }
+  .github{
+    top: 1;
   }
 }
 
 
-@media only screen and (max-width:1030px){
-    .pyt{
-      height:75px;
-      width:75px;
-      position: relative;
-      top:2%;
-      left:-30%;
-      
-    }
-    
-    .pyt2{
-      height:50px;
-      width:50px;
-      position: relative;
-      top:-293%;
-      left:-12%;
-      animation-name: spin;
-      animation-duration: 5s;
-      animation-iteration-count: infinite;
-    }
-    
-    .spring{
-      height:50px;
-      width:50px;
-      position: relative;
-      top:-281%;
-      left:-7%;
-      animation-name: spin;
-      animation-duration: 5s;
-      animation-iteration-count: infinite;
-    }
-    
-    
-    .circular-border{
-      position: relative;
-      left:7.5%;
-    }
-    
-    
-    .dja{
-      height:70px;
-      width:70px;
-      position: relative;
-      top:-290%;
-      left:-5%;
-      animation-name: spin;
-      animation-duration: 5s;
-      animation-iteration-count: infinite;
-    }
-    
-    .ht{
-      height:50px;
-      width:50px;
-      position: relative;
-      top:-280%;
-      left:-11.5%;
-      animation-name: spin;
-      animation-duration: 5s;
-      animation-iteration-count: infinite;
-    }
-    
-    
-    
-    .java{
-      height:50px;
-      width:46px;
-      position: relative;
-      top:-269%;
-      left:-17%;
-      animation-name: spin;
-      animation-duration: 5s;
-      animation-iteration-count: infinite;
-    }
-    
-    
-    .cutername{
-      position: relative;
-      left:4.5%;
-      top: -100%;
-    }
-    
-    .csss{
-      height:50px;
-      width:50px;
-      position: relative;
-      top:-270%;
-      left:-2%;
-      
-      animation-name: spin, glow;
-      animation-duration: 5s;
-      animation-iteration-count: infinite; 
-    
-    }
-    .xsum{
-      background-color: var(--secondary-color);
-      font-size: 20px;
-      border-color: #023047;
-      border-width: 20px;
-      border-style:double;
-      width:50%;
-      height: 10%;
-      margin-left: 215px;
-      margin-top: 170;
-      padding: 10;
-      text-align: center;
-      position:relative;
-      top:-80%;
-      color:var(--fithary-color);
-      left:16%;
-    }
-    
-    .goatsum{
-      position: relative;
-      left: -41%;
-      font-size: 20px;
-
-    }
-
   }
-
-  @media only screen and (max-width:376px){
-    .body{
-      overflow-x: hidden;
-    }
-
-    .circular-border{
-      height: 20%;
-      position: relative;
-      top: -65%;
-      left: -1%;
-    }
-    .cutername{
-      position: relative;
-      top: -70%;
-      left: 6%;
-    }
-    .projects{
-      position: relative;
-      top: -120%;
-    }
-    .mygoat{
-      top: -60%;
-    }
-    .goatbox{
-      position: relative;
-      top: -62%;
-    }
-    .xsixty{
-      position: relative;
-      top: -20%;
-    }
-    .sixbox{
-      position: relative;
-      top: -27%;
-    }
-    .dja{
-      position: relative;
-      top: -213%;
-      left: -15%;
-    }
-    .pyt2{
-      position: relative;
-      top: -213%;
-      left: -5%;
-    }
-    .java{
-    position: relative;
-      top: -195%;
-      left: -47%;
-    }
-    .csss{
-      top: -185%;
-      left: -61.5%;
-    }
-    .ht{
-      top: -175%;
-      left: -32.5%;
-    }
-    .spring{
-      top: -173%;
-      left: 10%;
-    }
-    .github{
-      position: relative;
-      left: 56%;
-      top:-270%;
-    }
-    .xsum{
-      border-color:#023047;
-      background-color:#023047;
-      color: #092f38;
-  
-  
-      left:-40%
-    }
-
-    @media only screen and (max-width:320px){
-      .body{
-        overflow-x: hidden;
-      }
-      .circular-border{
-        position: relative;
-        top: -80%;
-      }
-      
-      .cutername{
-        position: relative;
-        top: -85%;
-        font-size: 15px;
-      }
-
-      .jfsum{
-        position: relative;
-        font-size: 12px;
-        width: 180px;
-      }
-
-      .dja{
-        position: relative;
-        top: -250%;
-        left: -21%;
-      }
-
-      .csss{
-        position: relative;
-        top: -249%;
-        left: 8.5%;
-      }
-
-      .pyt2{
-        position: relative;
-        top: -235%;
-        left: -27%;
-      }
-      .java{
-        position: relative;
-        top: -209%;
-        left: -58.5%;
-      }
-      .ht{
-        position: relative;
-        
-        left: -41.5%;
-        top: -200%;
-
-      }
-      .spring{
-        position: relative;
-        top: -193%;
-        left: -9%;
-      }
-      .github{
-        position: relative;
-        left:50%;
-        top: -317.5%;
-      }
-      .linkedin{
-        top:-2% ;
-      }
-
-      
-    }
-    @media only screen and (max-width:375px){
-      .circular-border{
-        position: relative;
-        top: -80%;
-        height:140px;
-      }
-      .jfsum{
-        font-size: 10px;
-      }
-      .github{
-        position: relative;
-        top: -329.5%;
-      }
-      .linkedin{
-        position: relative;
-        top: -339.5%;
-        left: 57%;
-        width: 45px;
-      }
-      .sunny{
-        width: 44px;
-      }
-      .dja{
-        position: relative;
-        top: -260%;
-      }
-      .csss{
-        position: relative;
-        top: -250%;
-      }
-      .ht{
-        position: relative;
-        top: -240%;
-      }
-      .spring{
-        position: relative;
-        top: -240%;
-      }
-      .pyt2{
-        position: relative;
-        top:-230%;
-      }
-      .java{
-        position: relative;
-        top: -209%;
-      }
-
-      .cutername{
-        position: relative;
-        top: -90%;
-      }
-    }
-
-  }
-  
-
